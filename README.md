@@ -1,17 +1,19 @@
 # smileywarehouse
-sudo apt-get install -f --install-recommends linux-generic-lts-xenial xserver-xorg-core-lts-xenial xserver-xorg-lts-xenial xserver-xorg-video-all-lts-xenial xserver-xorg-input-all-lts-xenial libwayland-egl1-mesa-lts-xenial libgl1-mesa-glx-lts-xenial libgl1-mesa-glx-lts-xenial:i386 libglapi-mesa-lts-xenial:i386
+List of ps2 games 
+
+https://drive.google.com/drive/folders/1Fmn4PJacc6g1UCb2gckD9-1JL0gU-OFo
 
 
-On Ubuntu 16.04 LTS, I successfully used the following to disable suspend:
+List of ps1 games using wget command 
 
-sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
-And this to re-enable it:
+https://the-eye.eu/public/rom/Playstation/Games/
 
-sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
+or you can put this command in limux 
+
+wget -m -np -c -w 3 --no-check-certificate -R "index.html*" "https://the-eye.eu/public/rom/Playstation/Games/"
 
 
+list of all classic games Nintendo , Atari etc all can be found in this site 
 
+https://the-eye.eu/public/rom/
 
-https://drive.google.com/open?id=1aF4iabIxUb-ntiAe5oGDwBPl0wnPneoC
-\
-1Fmn4PJacc6g1UCb2gckD9-1JL0gU-OFo
